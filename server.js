@@ -30,3 +30,7 @@ app.post('/info', (req,res) => {
         console.log(e.message);
     }
 })
+
+app.listen(port, () => {
+    console.log(`Server running successfully at http://localhost:${port}`)
+})
